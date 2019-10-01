@@ -307,7 +307,7 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background-image:url(TIEN2048/meta/1024.jpg);
+    background-image:url(meta/image/1024.jpg);
     background: #eee4da;
     text-align: center;
     font-weight: bold;
