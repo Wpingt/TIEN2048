@@ -308,6 +308,7 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background-image:url(TIEN2048/meta/1024.jpg);
+    background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
