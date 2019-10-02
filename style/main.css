@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   color: #776e65;
+  background:#fff1e7;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -94,19 +95,11 @@ h1.title {
 .best-container:after {
   content: "Best"; }
 
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-  line-height: 1.65; }
 
-a {
-  color: #776e65;
-  font-weight: bold;
-  text-decoration: underline;
-  cursor: pointer; }
 
-strong.important {
-  text-transform: uppercase; }
+
+
+
 
 hr {
   border: none;
@@ -523,10 +516,7 @@ hr {
   display: block;
   clear: both; }
 
-.game-intro {
-  float: left;
-  line-height: 42px;
-  margin-bottom: 0; }
+
 
 .restart-button {
   display: inline-block;
