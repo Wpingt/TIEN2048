@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-
-  background-image:url(../meta/apple-touch-startup-image-640x1096.png);
+  background-image:url(../meta/apple-touch-startup-image-640x920.png);
+  background-size:100% 100%;  
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -747,7 +747,7 @@ hr {
     font-size: 35px; }
 
   .game-message p {
-    font-size: 3px !important;
+    font-size: 0px !important;
     height: 30px !important;
     line-height: 30px !important;
     margin-top: 90px !important; }
