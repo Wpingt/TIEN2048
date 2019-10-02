@@ -2,8 +2,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image:url(../meta/apple-touch-startup-image-640x920.png);
-  background-size:100% 100%;  
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -12,15 +10,15 @@ body {
   margin: 80px 0; }
 
 .heading:after {
-
-  display: none;
+  content: "";
+  display: block;
   clear: both; }
 
 h1.title {
   font-size: 80px;
   font-weight: bold;
   margin: 0;
-  display: none;
+  display: block;
   float: left; }
 
 @-webkit-keyframes move-up {
@@ -747,7 +745,7 @@ hr {
     font-size: 35px; }
 
   .game-message p {
-    font-size: 0px !important;
+    font-size: 30px !important;
     height: 30px !important;
     line-height: 30px !important;
     margin-top: 90px !important; }
