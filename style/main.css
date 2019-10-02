@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #faf8ef;
+  background-image:url(../meta/apple-touch-startup-image-640x1096.png);
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -12,14 +13,14 @@ body {
 
 .heading:after {
   content: "";
-  display: block;
+  display: none;
   clear: both; }
 
 h1.title {
   font-size: 80px;
   font-weight: bold;
   margin: 0;
-  display: block;
+  display: none;
   float: left; }
 
 @-webkit-keyframes move-up {
